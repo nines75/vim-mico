@@ -6,7 +6,7 @@ endif
 syn match MicoComment /\v^#.*$/
 syn match MicoRegex /\v^\/.*\/[isuvm]*$/
 syn match MicoDirective /\v^\@end\s*$/
-syn match MicoDirective /\v^\@%(include-tags|include-video-ids|include-user-ids|include-series-ids|v)\s/
+syn match MicoDirective /\v^\@%(include-tags|include-video-ids|include-user-ids|include-series-ids)\s/
 syn match MicoDirective /\v^\@%(exclude-tags|exclude-video-ids|exclude-user-ids|exclude-series-ids)\s/
 syn match MicoDirective /\v^\@%(strict|s)\s*$/
 syn match MicoDirective /\v^\@disable\s*$/
