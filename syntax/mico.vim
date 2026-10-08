@@ -11,7 +11,7 @@ syntax match MicoDirective /\v^\@%(video-id|video-owner-id|video-owner-name|vide
 syntax match MicoDirective /\v^\@%(include-tags|include-video-ids|include-user-ids|include-series-ids)\s/
 syntax match MicoDirective /\v^\@%(exclude-tags|exclude-video-ids|exclude-user-ids|exclude-series-ids)\s/
 syntax match MicoDirective /\v^\@%(strict|s)\s*$/
-syntax match MicoDirective /\v^\@disable\s*$/
+syntax match MicoDirective /\v^\@remove\s*$/
 
 " defaultに設定することで上書き可能にする
 highlight default link MicoComment Comment
